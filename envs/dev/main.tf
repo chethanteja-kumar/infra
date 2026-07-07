@@ -4,7 +4,7 @@ locals {
   env     = "dev"
   region  = "us-east-1"
 }
-# Initial dev environment setup test
+# Initial dev environment setup test New comment
 data "aws_caller_identity" "current" {}
 
 module "vpc" {
