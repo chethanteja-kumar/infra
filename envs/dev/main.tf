@@ -4,7 +4,7 @@ locals {
   env     = "dev"
   region  = "us-east-1"
 }
-# Initial dev environment setup test 20/7/2026 importing new alias
+# Initial dev environment setup test 21/7/2026 importing new alias
 data "aws_caller_identity" "current" {}
 
 module "vpc" {
